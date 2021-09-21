@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@import './pages';
+@import './components';
+
+@layer base {
+  body {
+    font-family: Rubik;
+  }
+  h1 {
+    @apply text-6xl font-bold;
+  }
+  h2 {
+    @apply text-5xl font-bold;
+  }
+  h3 {
+    @apply text-4xl font-bold;
+  }
+  h4 {
+    @apply text-3xl font-semibold;
+  }
+  h5 {
+    @apply text-2xl font-semibold;
+  }
+  h6 {
+    @apply text-xl font-semibold;
+  }
+  label {
+    @apply text-sm;
+  }
+}
+
+ * {
+ 	outline: none !important;
+ }

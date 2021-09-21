@@ -1,0 +1,20 @@
+.bg-image {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	opacity: 0.05;
+}
+
+.rounded-bg {
+	height: auto;
+	width: auto;
+}
+
+.circle-transparent {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
